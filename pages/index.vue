@@ -45,9 +45,10 @@
 			</div>
 		</section>
 
-		<section data-aos="fade-up" class="game" v-if="!isMobile">
+		<img :src="config.public.dev.photo"/>
+		<!-- <section data-aos="fade-up" class="game" v-if="!isMobile">
 			<SnakeGame />
-		</section>
+		</section> -->
 
 	</main>
 </template>
