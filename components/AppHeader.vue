@@ -8,20 +8,20 @@
             </NuxtLink>
 
             <NuxtLink id="nav-link" to="/" :class="{ active: isActive('/') }">
-              _hello
+              Hello
             </NuxtLink>
   
             <NuxtLink id="nav-link" to="/about-me" :class="{ active: isActive('/about-me') }">
-              _about-me
+              à propos de moi
             </NuxtLink>
   
             <NuxtLink id="nav-link" to="/projects" :class="{ active: isActive('/projects') }">
-              _projects
+              Projets
             </NuxtLink>
           </div>
 
           <NuxtLink id="nav-link-contact" to="/contact-me" :class="{ active: isActive('/contact-me')}">
-            _contact-me
+            Contactez moi
           </NuxtLink>
       
       </nav>
