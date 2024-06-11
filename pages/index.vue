@@ -44,8 +44,8 @@
 				</p>
 			</div>
 		</section>
-
-		<img :src="'/images/' + config.public.dev.photo"/>
+{{ '/images/' + config.public.dev.photo }}
+		<!-- <img :src="'/images/' + config.public.dev.photo"/> -->
 		<!-- <section data-aos="fade-up" class="game" v-if="!isMobile">
 			<SnakeGame />
 		</section> -->
